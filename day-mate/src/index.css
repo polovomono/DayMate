@@ -1,0 +1,30 @@
+@import "tailwindcss";
+:root {
+  --vazir-font: Vazirmatn;
+  --alexandria-font: Alexandria;
+  --teal: #a8d8ea;
+}
+* {
+  user-select: none;
+  scroll-behavior: smooth;
+  direction: rtl;
+  margin: 0rem;
+}
+/* .custom-gradient-bg {
+  background: linear-gradient(120deg, #a8d8ea, #68a3ba);
+  background-size: 400% 400%;
+  animation: gradient 6s ease infinite;
+} */
+.custom-teal-bg {
+  background-color: var(--teal);
+}
+.custom-vazir-font {
+  font-family: var(--vazir-font);
+}
+.custom-alexandria-font {
+  font-family: var(--alexandria-font);
+}
+.custom-login-banner {
+  background: url("../src/assets/Material/bg2.png");
+  background-size: 33em;
+}

@@ -1,0 +1,172 @@
+:root {
+  --lightBlue: #68a3ba;
+  --white: #ffffff;
+  --white2: #f7f5ff;
+  --white-less: #fafafa;
+  --darkNavy: #1e3a4c;
+  --light-gray: #f0f0f0;
+  --gray: #dfdfdf;
+  --dark-gray: #9f9f9f;
+  --red: oklch(0.577 0.245 27.325);
+  --red-less: oklch(0.885 0.062 18.334);
+  --blue: #3f75ff;
+}
+
+.custom-whiteLess-bg {
+  background-color: var(--white-less);
+}
+.custom-lightBlue-bg {
+  background-color: var(--lightBlue);
+}
+.custom-darkNavy-bg {
+  background-color: var(--darkNavy);
+}
+.custom-red-bg {
+  background-color: var(--red);
+}
+.custom-redLess-bg {
+  background-color: var(--red-less);
+}
+.custom-lightGray-bg {
+  background-color: var(--light-gray);
+}
+.custom-gray-bg {
+  background-color: var(--gray);
+}
+.custom-darkGray-bg {
+  background-color: var(--dark-gray);
+}
+.custom-blue-bg {
+  background-color: var(--blue);
+}
+.custom-white2-color {
+  color: var(--white2);
+}
+.custom-white-color {
+  color: var(--white);
+}
+.custom-darkNavy-color {
+  color: var(--darkNavy);
+}
+.custom-gray-color {
+  color: var(--gray);
+}
+.custom-red-color {
+  color: var(--red);
+}
+.custom-blue-color {
+  color: var(--blue);
+}
+.custom-gray-border {
+  border: 0.1rem solid var(--gray);
+}
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-slideDown {
+  animation: slideDown 0.15s ease-out;
+}
+.custom-direction {
+  direction: ltr;
+}
+.custom-ml {
+  margin-left: 0.3rem;
+}
+.custom-ml-2 {
+  margin-left: 7rem;
+}
+.custom-mr {
+  margin-right: 1rem;
+}
+.custom-mr-2 {
+  margin-right: 0.6rem;
+}
+.custom-mt {
+  margin-top: 0.2rem;
+}
+.custom-mt-2 {
+  margin-top: 0.5rem;
+}
+@keyframes moonSlide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.moon-slide {
+  animation: moonSlide 4s ease-in-out infinite;
+}
+@keyframes bend {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.hover\:animate-bend:hover {
+  animation: bend 1s ease-in-out;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.vue-scroll-picker {
+  scroll-behavior: smooth;
+}
+.custom-dollar-bg {
+  background: url("../assets/Material/currency-dollar.png") no-repeat;
+  background-position: 0.5svh;
+}
+.custom-euro-bg {
+  background: url("../assets/Material/currency-euro.png") no-repeat;
+  background-position: 0.5svh;
+}
+.custom-gold-bg {
+  background: url("../assets/Material/currency-gold.png") no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
