@@ -30,10 +30,6 @@ const Origin = () => {
               text="yaD etaM"
               className="text-2xl font-semibold text-center custom-direction custom-darkNavy-color"
               delay={100}
-              animationFrom={{ opacity: 0, transform: "translate3d(0,50px,0)" }}
-              animationTo={{ opacity: 1, transform: "translate3d(0,0,0)" }}
-              easing="easeOutCubic"
-              threshold={0.2}
             />
             <PiPottedPlantFill className="w-[1.5rem] h-[1.5rem] custom-darkNavy-color" />
           </div>
