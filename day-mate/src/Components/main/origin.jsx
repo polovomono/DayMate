@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "/DayMate/day-mate/src/Components/global.css";
-import logo from "/DayMate/day-mate/src/assets/Material/logo.jpg";
+import "../../Components/global.css";
+import logo from "../../assets/Material/logo.jpg";
 import { RiSettings3Fill } from "react-icons/ri";
 import { FaUser } from "react-icons/fa";
 import { PiPottedPlantFill } from "react-icons/pi";
