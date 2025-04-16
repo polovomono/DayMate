@@ -19,7 +19,7 @@ const Origin = () => {
       <header className="flex sm:flex-row flex-col items-center justify-between w-full sm:h-[10%] h-[14%]">
         <div className="flex flex-row items-center justify-between sm:w-[18%] w-[50%]">
           <img src={logo} className="sm:w-18 sm:h-18 w-26 h-26 rounded-full" />
-          <h1 className="sm:w-[60.5%] w-[35%] text-3xl font-bold custom-darkNavy-color custom-alexandria-font">
+          <h1 className="sm:w-[60.5%] w-[35%] text-3xl font-bold custom-white-color custom-alexandria-font">
             دی میت
           </h1>
         </div>

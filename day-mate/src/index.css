@@ -28,3 +28,8 @@
   background: url("../src/assets/Material/bg2.png");
   background-size: 33em;
 }
+.custom-bg {
+  background: url("../src/assets/Material/custom-bg.jpg");
+  background-position: contain;
+  background-size: 120rem;
+}
