@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import "/DayMate/day-mate/src/Components/global.css";
+import "../../Components/global.css";
 import { IoIosAdd } from "react-icons/io";
 import { IoMdPricetag } from "react-icons/io";
 import { FaRegTrashCan } from "react-icons/fa6";

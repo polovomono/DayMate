@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import "/DayMate/day-mate/src/Components/global.css";
+import "../../Components/global.css";
 import Dot from "../Extra/dot";
 import { RxCross2 } from "react-icons/rx";
 import { loginUser } from "../../Common/Utils/api";

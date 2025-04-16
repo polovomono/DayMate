@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import moment from "jalali-moment";
-import holidayTranslations from "/DayMate/day-mate/src/Common/Utils/holidayTranslations";
+import holidayTranslations from "../../Common/Utils/holidayTranslations";
 import TimeConvert from "../Calendar/timeConvert";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import { RiExchangeFundsLine } from "react-icons/ri";
