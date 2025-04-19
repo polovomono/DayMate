@@ -1,69 +1,118 @@
-# DayMate ✅☀️🗓️  
-**Your all-in-one productivity companion!**
+# DayMate: Your Daily Assistant 🌟
 
-![Screenshot (31)](https://github.com/user-attachments/assets/9a5411f4-6a74-4e1d-9bc6-fb01770cb4d8)
+![DayMate Logo](https://img.shields.io/badge/DayMate-React%20Extension-blue)
 
-## Overview  
-DayMate is a **Single Page Application (SPA)** designed to help users stay organized and efficient. It integrates three essential productivity tools:  
+Welcome to the **DayMate** repository! This project is a React-based Chrome extension designed to be your daily assistant. With widgets for weather, to-do lists, calendars, and currency tracking, DayMate aims to simplify your daily tasks and keep you organized.
 
-- **✅ To-Do List App** – Manage tasks with ease.  
-- **☀️ Weather App** – Stay updated with real-time weather information.  
-- **📅 Calendar** – Keep track of important dates and events.  
+## Table of Contents
 
-Before accessing these features, users can sign in using **Google authentication** or their **email and password**.  
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Tech Stack  
-DayMate is built using modern web technologies to ensure performance, scalability, and a great user experience:  
+## Features 🌈
 
-### 🔹 Frontend  
-- **Tailwind CSS** – Utility-first styling for a sleek and responsive design.
-- **JavaScript** – The backbone of dynamic functionality. 
-- **React.js** – A powerful library for building interactive UIs.    
-- **Material UI** – Pre-designed components for a polished look.  
+- **Weather Widget**: Get real-time weather updates for your location.
+- **To-Do List**: Manage your tasks efficiently with a simple interface.
+- **Calendar Integration**: Keep track of your events and appointments.
+- **Currency Tracker**: Monitor exchange rates for different currencies.
 
-### 🔹 Backend  
-- **Django** – A high-level Python web framework for handling server-side logic.  
-- **Django REST Framework (DRF)** – API development and authentication management.  
-- **PostgreSQL** – A reliable and scalable relational database.  
+## Technologies Used ⚙️
 
-### 🔹 Additional Tools  
-- **Docker** – Containerization for seamless deployment.  
-- **Postman** – API testing and development.  
+DayMate leverages a range of technologies to deliver a seamless experience:
 
-## Installation & Setup  
-To run DayMate locally, follow these steps:  
+- **React**: For building user interfaces.
+- **Django**: Backend framework to handle data.
+- **PostgreSQL**: Database management system for storing user data.
+- **Docker**: For containerization and easy deployment.
+- **Framer Motion**: For smooth animations and transitions.
+- **Git & GitHub**: Version control and collaboration.
+- **Postman**: For API testing.
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/yourusername/daymate.git
-cd daymate
-```
+## Installation 🚀
 
-### 2️⃣ Set Up the Backend (Django)
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
-```
+To get started with DayMate, follow these steps:
 
-### 3️⃣ Set Up the Frontend (React)
-```bash
-cd frontend
-npm install
-npm start
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/polovomono/DayMate.git
+   cd DayMate
+   ```
 
-### 4️⃣ Docker (Optional)
-```bash
-docker-compose up --build
-```
+2. Install the required dependencies:
+   ```bash
+   npm install
+   ```
 
-## Features  
-✔️ **User Authentication** – Login via Google or email/password.  
-✔️ **To-Do List** – Add, edit, and delete tasks.  
-✔️ **Weather App** – Get real-time weather updates.  
-✔️ **Calendar** – Organize and plan events.  
-✔️ **Modern UI** – A clean, responsive interface using Tailwind and Material UI.
+3. Set up the backend:
+   - Navigate to the backend directory and set up your Django environment.
+   - Run migrations to create the necessary database tables.
+
+4. Start the application:
+   ```bash
+   npm start
+   ```
+
+You can also download the latest release [here](https://github.com/polovomono/DayMate/releases) and follow the instructions in the README file.
+
+## Usage 📅
+
+Once you have installed DayMate, you can start using it right away. The extension will appear in your Chrome toolbar. Click on the icon to open the dashboard.
+
+- **Weather Widget**: Enter your location to get the current weather.
+- **To-Do List**: Add, edit, or delete tasks as needed.
+- **Calendar**: View your upcoming events and add new ones.
+- **Currency Tracker**: Select currencies to monitor and view their exchange rates.
+
+## Contributing 🤝
+
+We welcome contributions to DayMate! If you want to help improve the project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. Open a pull request.
+
+Please ensure that your code adheres to the project's coding standards.
+
+## License 📜
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact 📧
+
+For any inquiries or feedback, feel free to reach out:
+
+- **Email**: your.email@example.com
+- **GitHub**: [polovomono](https://github.com/polovomono)
+
+For the latest updates, check the [Releases](https://github.com/polovomono/DayMate/releases) section.
+
+## Conclusion 🎉
+
+Thank you for checking out DayMate! We hope this extension makes your daily tasks easier and more organized. Your feedback and contributions are always welcome. Enjoy using DayMate!
+
+![DayMate Screenshot](https://via.placeholder.com/800x400?text=DayMate+Dashboard)
+
+## Additional Resources 📚
+
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [Django Documentation](https://www.djangoproject.com/start/)
+- [PostgreSQL Documentation](https://www.postgresql.org/docs/)
+- [Docker Documentation](https://docs.docker.com/get-started/)
+
+Feel free to explore these resources to deepen your understanding of the technologies used in DayMate.
